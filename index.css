@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./inspiration-geometry\ \(1\).png);
+    background-color: rgb(60, 60, 196);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(233, 219, 27);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding:7%;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color:#e84545;
+}
+.dat, #preview-content{
+    font-size: 20px;
+}
+.desc{
+    
+    width: 100%;
+    font-size: 20px;
+}
+.input-line{
+    font-size: 17px;
+}
+.inputs{
+    padding:2%;
+    width:100%;
+}
+.inputs form input{
+    margin-top:10px;
+    width:80%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    border:none;
+    outline:none;
+}
+.inputs form input:focus{
+    border: 2px solid rgb(0, 255, 221);
+}
+.inputs form button{
+    margin-top: 10px;
+    width:120px;
+    height:40px;
+    border-radius: 30px;
+    outline:none;
+    background-color: #cd45e8;
+    border:1px solid rgb(150, 103, 89);
+    transition: background-color 0.1s;
+}
+.inputs form button:hover{
+    background-color: #750e8a;
+    transition: background-color 0.1s;
+}
+.outputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+}
+.output{
+    height:40px;
+    width:190px;
+    margin:1%;
+    padding:10px;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: 600;
+    
+}
+.output:nth-child(even){
+    background-color: #cd45e8;
+    color:black;
+}
+.output:nth-child(odd){
+    background-color: white;
+    color:black;
+}
+#button{
+    font-weight: bold;
+}
